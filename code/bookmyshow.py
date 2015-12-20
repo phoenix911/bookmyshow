@@ -13,6 +13,4 @@ sim = re.split(r'</a>', extract)
 # file = open("buff/ap.txt","w")
 # file.write(s)
 matching = [s for s in sim if "data-id" in s]
-print type(matching)
-
-pprint.pprint(a)
+pprint.pprint(matching)

@@ -1,10 +1,10 @@
 # bookmyshow
 
-this is a bookmyshow reminder app. 
-
-this app reminds you when a ticket is online for a certain date 
-
-this was written to remind star wars timing in hyderabad 
+this is a bookmyshow reminder app.
+this app reminds you when a ticket is online for a certain date
+this was written to remind star wars timing in hyderabad
+make sure to change URL
+and put your date in the if loop
 
            _____________________   _______      ___________
           .g""""""""""""""""""""""] j""""""],    j["""""""""""""Q.

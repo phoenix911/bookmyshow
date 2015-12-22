@@ -4,12 +4,12 @@ import re
 from pydub import AudioSegment
 from pydub.playback import play
 import time
-#import os.path
-#print os.getcwd()
+import os.path
+print os.getcwd()
 
 #r = requests.get(').text
 
-song = AudioSegment.from_mp3("star-wars-theme-song.mp3")
+song = AudioSegment.from_ogg("starwars.ogg")
 
 
 def notification(url):
@@ -22,7 +22,7 @@ def notification(url):
         play(song)
     else:
         print 'hello'
-    time.sleep(15)
+    time.sleep(60)
 
 # url = 'http://in.bookmyshow.com/buytickets/in-the-heart-of-the-sea-3d-hyderabad/movie-hyd-ET00036260-MT/20151222'
 url = 'http://in.bookmyshow.com/buytickets/star-wars-the-force-awakens-3d-hyderabad/movie-hyd-ET00025699-MT/20151224'
